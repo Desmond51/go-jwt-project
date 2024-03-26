@@ -1,7 +1,7 @@
 package helpers
 
 import (
-	controller "go-jwt-project/controllers"
+	controller "github.com/Desmond51/go-jwt-project/controllers"
 
 	"github.com/gin-gonic/gin"
 )

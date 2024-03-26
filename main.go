@@ -13,7 +13,7 @@ func main(){
 	if port ==""{
 		port = "8000"
 	}
-	router := gin. New()
+	router := gin.New()
 	router.Use(gin.Logger())
 
 	routes.AuthRoutes(router)
